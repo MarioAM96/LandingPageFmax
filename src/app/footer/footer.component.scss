@@ -1,0 +1,51 @@
+.footer-container {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Apila elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    gap: 10px; /* Espaciado entre elementos */
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente según tu preferencia */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-button {
+    display: inline-block;
+    background: color-mix(in srgb, #FF3D00 5%, transparent); /* Color de fondo con mezcla */
+    color: #FF3D00; /* Cambiado al nuevo color */
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+    transition: background 0.3s, color 0.3s; /* Transiciones para el fondo y el color */
+}
+
+.footer-button:hover {
+    background: color-mix(in srgb, var(--hot-red) 15%, transparent); /* Color de fondo más oscuro al pasar el mouse */
+    color: #000000; /* Cambia el color del texto al pasar el mouse */
+}
+
+.contact-numbers {
+    display: flex;
+    flex-direction: row; /* Cambiado a 'row' para apilar horizontalmente */
+    justify-content: center; /* Centra los números en el contenedor */
+    gap: 10px; /* Espaciado entre números */
+}
+
+.contact-number {
+    color: #FF3D00; /* Cambiado al nuevo color */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.contact-number:hover {
+    color: #ff4d4d; /* Color más claro al pasar el mouse */
+}
